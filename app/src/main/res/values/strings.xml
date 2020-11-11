@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Job portal</string>
+    <string name="transition_photo">transition_photo</string>
+</resources>

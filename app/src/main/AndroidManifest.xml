@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.technocrats.jobportal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/jpicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/jpicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".postJob7" />
+        <activity android:name=".jobPanel7" />
+        <activity android:name=".postJob6" />
+        <activity android:name=".jobPanel6" />
+        <activity android:name=".postJob5" />
+        <activity android:name=".jobPanel5" />
+        <activity android:name=".postJob4" />
+        <activity android:name=".jobPanel4" />
+        <activity android:name=".postJob3" />
+        <activity android:name=".jobPanel3" />
+        <activity android:name=".postJob2" />
+        <activity android:name=".jobPanel2" />
+        <activity android:name=".jobPanel1" />
+        <activity android:name=".postJob1" />
+        <activity android:name=".postJob" />
+        <activity android:name=".jobPanel" />
+        <activity android:name=".FullDescriptionActivity" />
+        <activity android:name=".Editor" />
+        <activity android:name=".Bank" />
+        <activity android:name=".Eng" />
+        <activity android:name=".Mark" />
+        <activity android:name=".Teaching" />
+        <activity android:name=".It" />
+        <activity android:name=".Design" />
+        <activity android:name=".Medical" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

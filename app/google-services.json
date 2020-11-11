@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1018342180013",
+    "firebase_url": "https://job-portal-6fd6c.firebaseio.com",
+    "project_id": "job-portal-6fd6c",
+    "storage_bucket": "job-portal-6fd6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018342180013:android:cd1daf681f1c4df7ce3224",
+        "android_client_info": {
+          "package_name": "com.technocrats.jobportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018342180013-qd2engd4a0vctgngnh3s3ih83b3bafnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmwGnvF9L3CywOpKRXiBfwpDALHnScQEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018342180013-qd2engd4a0vctgngnh3s3ih83b3bafnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
