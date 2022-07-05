@@ -66,16 +66,17 @@
             android:id="@+id/description"
             android:textSize="20dp"
             android:layout_marginStart="50dp"/>
+
         <EditText
             android:id="@+id/txtdata2"
             android:layout_width="302dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginEnd="50dp"
-            android:hint="Enter contact email Address"
-            android:layout_marginTop="0dp"
             android:layout_below="@id/description"
-            android:gravity="center" />
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="50dp"
+            android:gravity="center"
+            android:hint="Enter contact email Address" />
 
         <Button
             android:id="@+id/btnbrowse"

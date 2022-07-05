@@ -21,7 +21,18 @@ import com.google.firebase.storage.StorageReference;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 import java.util.UUID;
+
+import javax.mail.Authenticator;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.AddressException;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -115,10 +126,60 @@ public class postJob7 extends AppCompatActivity {
                 uploadinfo imageUploadInfo = new uploadinfo(txtdata.getText().toString(), txtData1.getText().toString(), txtData2.getText().toString(), uri.toString());
                 String ImageUploadId = databaseReference.push().getKey();
                 databaseReference.child(ImageUploadId).setValue(imageUploadInfo);
+                sendMail();
                 progressDialog.dismiss();
                 Toast.makeText(getApplicationContext(), "Image uploaded successfully", Toast.LENGTH_LONG).show();
 
             });
         });
+    }
+
+    private void sendMail() {
+
+        try {
+            String stringSenderEmail = "technocrats.developer@gmail.com";
+            String stringReceiverEmail = txtData2.getText().toString();
+            String stringPasswordSenderEmail = "fltlijamsdsdjniz";
+
+            String stringHost = "smtp.gmail.com";
+
+            Properties properties = System.getProperties();
+
+            properties.put("mail.smtp.host", stringHost);
+            properties.put("mail.smtp.port", "465");
+            properties.put("mail.smtp.ssl.enable", "true");
+            properties.put("mail.smtp.auth", "true");
+
+            javax.mail.Session session = Session.getInstance(properties, new Authenticator() {
+                @Override
+                protected PasswordAuthentication getPasswordAuthentication() {
+                    return new PasswordAuthentication(stringSenderEmail, stringPasswordSenderEmail);
+                }
+            });
+            Log.i("msg", "success");
+
+            MimeMessage mimeMessage = new MimeMessage(session);
+            mimeMessage.addRecipient(Message.RecipientType.TO, new InternetAddress(stringReceiverEmail));
+
+            mimeMessage.setSubject("Job Posting Update");
+            mimeMessage.setText("Hello There, \n\nYour job post are live in the Editor find job section. \n\n Cheers!\nTeam Technocrats");
+
+            Thread thread = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        Transport.send(mimeMessage);
+                    } catch (MessagingException e) {
+                        e.printStackTrace();
+                    }
+                }
+            });
+            thread.start();
+
+        } catch (AddressException e) {
+            e.printStackTrace();
+        } catch (MessagingException e) {
+            e.printStackTrace();
+        }
     }
 }
