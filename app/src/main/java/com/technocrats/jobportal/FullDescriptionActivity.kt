@@ -15,6 +15,11 @@ class FullDescriptionActivity : AppCompatActivity() {
         setContentView(R.layout.activity_full_description)
         getIntentFromActivity()
         setJobProperties()
+        job_btn.setOnClickListener({
+            job_btn.setText("Applied")
+            job_btn.setBackgroundColor(R.drawable.btn_color)
+        }
+        )
     }
 
     private fun setJobProperties() {

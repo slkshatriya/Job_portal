@@ -34,16 +34,7 @@
             android:layout_toRightOf="@id/img1"
             android:layout_marginLeft="10dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/desctext"
-            android:text="this is desc name"
-            android:textSize="25sp"
-            android:textColor="#000"
-            android:layout_toRightOf="@id/img1"
-            android:layout_below="@id/nametext"
-            android:layout_marginLeft="10dp" />
+
 
         <TextView
             android:layout_width="match_parent"
@@ -53,7 +44,7 @@
             android:textSize="25sp"
             android:textColor="#000"
             android:layout_toRightOf="@id/img1"
-            android:layout_below="@id/desctext"
+            android:layout_below="@id/nametext"
             android:layout_marginLeft="10dp" />
 
     </RelativeLayout>
