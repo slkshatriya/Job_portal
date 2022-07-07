@@ -54,7 +54,7 @@
                 android:layout_columnWeight="1"
                 android:layout_marginTop="20dp"
                 android:layout_rowWeight="1"
-                app:cardElevation="60dp"
+
                 android:id="@+id/mark"
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp"
@@ -89,7 +89,7 @@
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                app:cardElevation="60dp"
+
                 android:layout_marginTop="20dp"
                 android:id="@+id/design"
                 app:cardCornerRadius="12dp"
@@ -125,7 +125,7 @@
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                app:cardElevation="60dp"
+
                 android:id="@+id/it"
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp"
@@ -160,7 +160,7 @@
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                app:cardElevation="60dp"
+
                 android:id="@+id/teach"
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp"
@@ -195,7 +195,7 @@
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                app:cardElevation="60dp"
+
                 android:id="@+id/med"
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp"
@@ -230,7 +230,7 @@
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                app:cardElevation="60dp"
+
                 android:id="@+id/eng"
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp"
@@ -265,7 +265,7 @@
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                app:cardElevation="60dp"
+
                 android:id="@+id/bank"
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp"
@@ -300,7 +300,7 @@
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                app:cardElevation="60dp"
+
                 android:id="@+id/editor"
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp"

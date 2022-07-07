@@ -14,8 +14,17 @@
         <entry key="app/src/main/res/drawable/tachimg.xml" value="0.126" />
         <entry key="app/src/main/res/layout/activity_design.xml" value="0.246875" />
         <entry key="app/src/main/res/layout/activity_full_description.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/activity_job_panel.xml" value="0.260797119140625" />
+        <entry key="app/src/main/res/layout/activity_job_panel1.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/activity_job_panel2.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/activity_job_panel3.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/activity_job_panel4.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/activity_job_panel5.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/activity_job_panel6.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/activity_job_panel7.xml" value="0.246875" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.246875" />
         <entry key="app/src/main/res/layout/activity_mark.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/activity_post_job.xml" value="0.246875" />
         <entry key="app/src/main/res/layout/activity_post_job1.xml" value="0.246875" />
         <entry key="app/src/main/res/layout/singlerow.xml" value="0.246875" />
       </map>
@@ -26,5 +35,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.260797119140625" />
+      </ProjectState>
+    </option>
   </component>
 </project>
