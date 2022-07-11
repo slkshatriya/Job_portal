@@ -47,7 +47,7 @@ class FullDescriptionActivity : AppCompatActivity() {
             val mimeMessage = MimeMessage(session)
             mimeMessage.addRecipient(Message.RecipientType.TO, InternetAddress(stringReceiverEmail))
             mimeMessage.subject = "Job Update"
-            mimeMessage.setText("Hello There, \n\nSomeone have applied to your posted job. \n\n Cheers!\nTeam Technocrats")
+            mimeMessage.setText(emailtext.text.toString()+ " have applied to your posted job. \n\n Cheers!\nTeam Technocrats")
             val thread = Thread {
                 try {
                     Transport.send(mimeMessage)
